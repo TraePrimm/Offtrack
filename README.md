@@ -30,7 +30,7 @@ A Raspberry Pi–powered iPod-style music player that supports FLAC and MP3 play
 sudo apt update
 sudo apt install python3-pip mpg123 pulseaudio bluez git
 pip3 install -r requirements.txt
-
+```
 
 | Folder       | Purpose                             |
 | ------------ | ----------------------------------- |
