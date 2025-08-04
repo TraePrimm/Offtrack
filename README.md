@@ -60,6 +60,8 @@ pip3 install -r requirements.txt
 
 python3 player.py
 
+```
+
 📂 File Structure
 Folder	Purpose
 ui/	UI code (touchscreen/buttons)
