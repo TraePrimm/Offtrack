@@ -61,24 +61,25 @@ pip3 install -r requirements.txt
 python3 player.py
 
 ```
+## 📂 File Structure
 
-📂 File Structure
-Folder	Purpose
-ui/	UI code (touchscreen/buttons)
-audio/	Audio playback logic
-bluetooth/	Bluetooth setup and reconnect logic
-rl/	Smart skip tracking + power policy
-utils/	File handling, metadata, system I/O
-assets/	Icons, album art, sample music
-config/	User settings and learned policies
-🚧 Planned Features
+| Folder       | Purpose                                      |
+|--------------|----------------------------------------------|
+| `ui/`        | UI code (touchscreen/buttons)                |
+| `audio/`     | Audio playback logic                         |
+| `bluetooth/` | Bluetooth setup and reconnect logic          |
+| `rl/`        | Smart skip tracking + power policy (RL)      |
+| `utils/`     | File handling, metadata, system I/O          |
+| `assets/`    | Icons, album art, sample music               |
+| `config/`    | User settings and learned policies (JSON)    |
 
-    Playlist support
+---
 
-    Shuffle and repeat modes
+## 🚧 Planned Features
 
-    Album art display
+- [ ] Playlist support  
+- [ ] Shuffle and repeat modes  
+- [ ] Album art display  
+- [ ] Web-based drag-and-drop upload interface  
+- [ ] Offline RL training via simulated playback environment
 
-    Web-based drag-and-drop upload interface
-
-    Offline RL training via simulated playback environment
